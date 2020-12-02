@@ -159,7 +159,8 @@ YMMV of course, but this is a basic type of op that many of us do very frequentl
 
 #### test 2: basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
-Again, something from yesterday's workday. A calculation from a fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many times.\
+Again, something from yesterday's workday.:\
+A calculation from a fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many times.\
 Each calculation round includes: 27 artihmetic ops on Doubles, 3 trig ops on Doubles and a sqrt on a Double.
 
 
