@@ -38,7 +38,7 @@ a fairly minimal web dev setup including:
 
 ## setup
 
-### OpenJDK
+**OpenJDK:** &nbsp;
 OK, this is the ONE slight caveat mentioned in the intro and naturally is the most important piece.
 At the present time there is a [JEP](https://openjdk.java.net/jeps/391) ongoing for OpenJDK M1 port but Azul has already released a [M1 build of OpenJDK](https://www.azul.com/downloads/zulu-community/?package=jdk).
 
@@ -54,7 +54,7 @@ paste this into /Library/Java/JavaVirtualMachines/
 
 now, running:
 ```
- /usr/libexec/java_home
+/usr/libexec/java_home
 ```
 should yield:
 ```
