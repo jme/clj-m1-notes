@@ -42,7 +42,7 @@ a fairly minimal web dev setup including:
 Ok, this is the ONE slight caveat mentioned in the intro and naturally is the most important piece.
 At the present time there is a [JEP](https://openjdk.java.net/jeps/391) ongoing for OpenJDK M1 port but Azul has already released a [M1 build of OpenJDK](https://www.azul.com/downloads/zulu-community/?package=jdk).
 
-There are various build versions available but for now I'm using that stalwart JDK of the clojure dev ecosystem, version 1.8, using the bundle rather than the dmg installer.
+There are various build versions available but for now I'm using that stalwart JDK of the clojure dev ecosystem, version 1.8, via the bundle rather than the dmg installer.
 
 So; Download the bundle zip file, verify the sha256 signature, and install as follows:
 
@@ -105,7 +105,7 @@ I completed the editor setup with some config file tweaks and a few favored plug
 <hr/>
 
 **Leingingen**\
-Install via the lein script as per the usual instructions on the Leiningen site.\
+Install via the lein script as per the usual instructions on the [Leiningen site](https://leiningen.org).\
 I went with the $HOME/bin style of install here. It was completely usual and nominal.
 
 &nbsp;
