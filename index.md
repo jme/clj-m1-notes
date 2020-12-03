@@ -66,8 +66,8 @@ java -version
 
 should yield:
  ```
-openjdk version "1.8.0_275"\
-OpenJDK Runtime Environment (Zulu 8.50.0.1013-CA-macos-aarch64) (build 1.8.0_275-b01)\
+openjdk version "1.8.0_275"
+OpenJDK Runtime Environment (Zulu 8.50.0.1013-CA-macos-aarch64) (build 1.8.0_275-b01)
 OpenJDK 64-Bit Server VM (Zulu 8.50.0.1013-CA-macos-aarch64) (build 25.275-b01, mixed mode)
 ```  
 
@@ -88,10 +88,11 @@ Preinstalled, NOP.
 
 **MacVim**
 I use [this](https://macvim-dev.github.io/macvim/) on the MBA and it installed as usual on the Mini. But as it currently is still a Intel x86 binary it will need to run under Rosetta, the x86 -> M1 translation utility.
+  
+The 'translation' ops are fast (< 1m) and one-time. MacVim then launches normally. As fast as ever.
+
 > If this is the first x86 app you have tried to install you will get a prompt to install Rosetta.\
   And the Activity Monitor utility helpfully includes a *architecture* ["Apple" "Intel"] column.
-
-The 'translation' ops are fast (< 1m) and one-time. MacVim then launches normally. As fast as ever.
 
 I completed the editor setup with some config file tweaks and a few favored plugins: [paredit](https://github.com/vim-scripts/paredit.vim), [vim-fireplace](https://github.com/tpope/vim-fireplace), [vim-vinegar](https://github.com/tpope/vim-vinegar) and [solarized](https://github.com/altercation/vim-colors-solarized). As those are vimscript plugins no problems were expected and none occurred.
 
@@ -147,7 +148,7 @@ Nevertheless...
   
 
 
-### test 1, uberjar build
+* test 1, uberjar build
 Assembling a deployment-ready uberjar from a ~32Kloc website source base:
 Literally a current project I was just deploying, cloned onto the new platform. For Science.
 
@@ -162,11 +163,11 @@ Hardly an epic computation, but this is a basic type of op that many of us do ve
   
 <hr/>
 
-### test 2: basic function calls and calculations
+* test 2: basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
 Again, something from yesterday's workday.:\
-A calculation from a single fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
-It's a thing that is done.\
+A calculation from a single fixed point -"Point Nemo", the Oceanic Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
+It's a thing that is done.
   
 > code snippet included in this repo.
 
