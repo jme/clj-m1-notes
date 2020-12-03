@@ -130,7 +130,7 @@ Many in the clojure community use emacs, but as of this writing it is apparently
   
 * **Homebrew** ::
 [Although proceeding very rapidly](https://github.com/Homebrew/brew/issues/7857) support is incomplete.
-> not Homebrew specidic, but helpful: the 'arch -x86_64' prefix to run apps with Rosetta2 via command line.
+> not Homebrew specific, but helpful: the 'arch -x86_64' prefix can be used to run apps with Rosetta2 via command line.
 
 
 * **virtualization and containers** ::
@@ -143,9 +143,9 @@ These are a bit shaky at the moment, and I'm not covering them as they are not i
 ### A quick comparison
 The new Mini feels exremely responsive and snappy. How about a quick, totally ad-hoc performance test?
 
-For a more valid comparison I added the [x86_64 build of the Azul JDK1.8](https://www.azul.com/downloads/zulu-community/?package=jdk) to the MBA and set it as the active JVM. 
+In an attempt at equity I added the [x86_64 build of the Azul JDK1.8](https://www.azul.com/downloads/zulu-community/?package=jdk) to the MBA and set it as the active JVM. 
   
-Also 'lein deps' was pre-run on the MBA to assure that the the local Maven (.m2) archives are equivalent with regard to target project..
+Also 'lein deps' was pre-run on the M1 Mini to assure that the the local Maven (.m2) archives are equivalent with regard to target project..
 
 Still, this is not exactly a fair comparison; the Mini has a bigger fan and is running Big Sur while the MBA is fully patched but not bumped up to this latest OS.
   
@@ -170,7 +170,7 @@ Hardly an epic computation, but this is a basic type of op that many of us do ve
 
 * **test 2:** basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
-Again, something from yesterday's workday.:
+Again, something from yesterday's workday:
   
 A distance calculation from a single fixed point -["Point Nemo", the Oceanic Pole of Inaccessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)- to a randomly-generated lat/lng coordinate. Repeated many, many times.\
 It's a thing that is done.
@@ -201,7 +201,7 @@ Finally, both the M1 Mini and 2017 MBA used here are low-end machines. It will b
     
 And although I'd be surprised to see Apple target a product for the datacenter space, one might imagine what could be packed into a 1U, and what the power & cooling reductions might look like there.
   
-A welcome distraction in these dark times.
+A welcome diversion in these dark times.
   
     
     
