@@ -39,10 +39,10 @@ a fairly minimal web dev setup including:
 ## setup
 
 ### OpenJDK
-OK, this is the ONE slight caveat mentioned in the Intro, and naturally is the most important piece.
+OK, this is the ONE slight caveat mentioned in the intro and naturally is the most important piece.
 At the present time there is a [JEP](https://openjdk.java.net/jeps/391) ongoing for OpenJDK M1 port but Azul has already released a [M1 build of OpenJDK](https://www.azul.com/downloads/zulu-community/?package=jdk).
 
-There are various build versions available but for now I'm using that stalwart of the clojure dev ecosystem, JDK1.8, using the bundle version rather than the dmg installer.
+There are various build versions available but for now I'm using that stalwart JDK of the clojure dev ecosystem, version 1.8, using the bundle rather than the dmg installer.
 
 So; Download the bundle zip file, verify the sha256 signature, and install as follows:
 
@@ -58,7 +58,7 @@ now, running:
 ```
 should yield:
 ```
-   /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
 ```
 
 and:
@@ -75,6 +75,8 @@ OpenJDK 64-Bit Server VM (Zulu 8.50.0.1013-CA-macos-aarch64) (build 25.275-b01, 
 
 Yay! Java!
 <hr/>
+
+&nbsp;
 
 **git**\
 The first time you type 'git' in a terminal you are prompted to install the XCode CLI dev tools.
@@ -139,7 +141,7 @@ These are a bit shaky at the moment, and I'm not covering them as they are not i
 &nbsp;
 
 ### A quick comparison
-The new Mini feels exremely responsive and snappy. How about a quick performance test?
+The new Mini feels exremely responsive and snappy. How about a quick, totally ad-hoc performance test?
 
 For a more valid comparison I added the [x86_64 build of the Azul JDK1.8](https://www.azul.com/downloads/zulu-community/?package=jdk) to the MBA and set it as the active JVM. 
   
