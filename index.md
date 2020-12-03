@@ -166,7 +166,7 @@ Hardly an epic computation, but this is a basic type of op that many of us do ve
 * test 2: basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
 Again, something from yesterday's workday.:\
-A calculation from a single fixed point -"Point Nemo", the Oceanic Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
+A calculation from a single fixed point -["Point Nemo", the Oceanic Pole of Inaccessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
 It's a thing that is done.
   
 > code snippet included in this repo.
