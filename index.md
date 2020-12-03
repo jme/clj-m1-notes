@@ -167,6 +167,7 @@ So the M1 Mini required only about 35% of the processing time of the MBA; not to
 Hardly an epic computation, but this is a basic type of op that many of us do very frequently.
   
 <hr/>
+&nbsp;
 
 * **test 2:** basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
@@ -176,8 +177,7 @@ A distance calculation from a single fixed point -["Point Nemo", the Oceanic Pol
 It's a thing that is done.
   
 
-> code snippet included in this repo.
-  
+> code snippet included in this repo.  
 &nbsp;
 
 rounds |  MBA     | M1 Mini   | % difference
@@ -206,7 +206,7 @@ Finally, both the M1 Mini and 2017 MBA used here are low-end machines. It will b
     
 And although I'd be surprised to see Apple target a product for the datacenter space, one might imagine what could be packed into a 1U, and what the power & cooling reductions might look like there.
   
-A welcome diversion in these dark times.
+\#StatusQuoRIP
   
     
     
