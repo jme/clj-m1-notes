@@ -11,7 +11,8 @@ The first wave of Apple's M1-based computers are now out in the wild. Obviously 
  
 So, The Goal: Quickly replicate the existing Clojure development environment present on a trusty 'traveller' laptop, onto a new M1-based Mac Mini.
   
-    
+&nbsp;
+
 ### gear used
 * 2017 MacBook Air, 8GB memory 128GB SSD:
 MBAs, even entry-level machines like this one, have been omnipresent in the dev world for years.
@@ -33,7 +34,8 @@ a fairly minimal web dev setup including:
 
 <hr/>
   
-  
+&nbsp;
+
 ## setup
 
 ### OpenJDK
@@ -134,7 +136,8 @@ These are a bit shaky at the moment, and I'm not covering them as they are not i
    
 <hr/>
   
-  
+&nbsp;
+
 ### A quick comparison
 The new Mini feels exremely responsive and snappy. How about a quick performance test?
 
@@ -148,7 +151,7 @@ Nevertheless...
   
 
 
-* test 1, uberjar build
+* **test 1:** uberjar build
 Assembling a deployment-ready uberjar from a ~32Kloc website source base:
 Literally a current project I was just deploying, cloned onto the new platform. For Science.
 
@@ -163,7 +166,7 @@ Hardly an epic computation, but this is a basic type of op that many of us do ve
   
 <hr/>
 
-* test 2: basic function calls and calculations
+* **test 2:** basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
 Again, something from yesterday's workday.:
   
@@ -182,11 +185,12 @@ The M1 Mini is somewhat less than twice as fast at this task as the MBA. Nice.
   
   > linear perf was expected and linear perf was recieved; The M1 Mini time for 3B reps (1437448 ms).
 
-Another decidedly non-cpu-melting, apparently fanlless benchmark but it looks like Apple is really not fooling around with this latest SoC initiative.
+Another decidedly non-cpu-melting, apparently fanless benchmark but it looks like Apple is really not fooling around with this latest SoC initiative.
 
 <hr/>
   
-  
+&nbsp;
+
 ### epilogue
 This lowest-tier M1 Mini is really impressive, and replicating a minimal 'live' clojure dev environment from a previous generation laptop was mostly straightforward. There are still many holes in M1 software support but I expect these will be filled-out in short order.
 
