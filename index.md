@@ -2,6 +2,8 @@
 title: Clojure and the M1, notes and a quick comparison
 ---
 
+#Clojure on the M1: notes and a quick comparison
+
 The first wave of Apple's M1-based computers are now out in the wild. Obviously the first question is: "Can I get my clojure dev environment up and running today?"
   
 **tl;dr** yes, with surprisingly few caveats, dodges and workarounds. Only one really.
@@ -31,7 +33,7 @@ a fairly minimal web dev setup including:
 
 ## setup
 
-#### OpenJDK
+### OpenJDK
 OK, this is the ONE slight caveat mentioned in the Intro, and naturally is the most important piece.
 At the present time there is a [JEP](https://openjdk.java.net/jeps/391) ongoing for OpenJDK M1 port but Azul has already released a [M1 build of OpenJDK](https://www.azul.com/downloads/zulu-community/?package=jdk).
 
@@ -120,7 +122,7 @@ Many in the clojure community use emacs, but as of this writing it is apparently
   
 * **Homebrew** ::
 [Although proceeding rapidly](https://github.com/Homebrew/brew/issues/7857) support is incomplete and at the moment the brew command is available only via Rosetta.
-> Command line calls can use the 'arch -x86_64' prefix to run apps with Rosetta2.
+> Command line calls [can use the 'arch -x86_64' prefix](https://github.com/Homebrew/brew/issues/9173) to run apps with Rosetta2.
 
 
 * **virtualization and containers** ::
@@ -141,7 +143,7 @@ Nevertheless...
   
 
 
-#### test 1, uberjar build
+### test 1, uberjar build
 Assembling a deployment-ready uberjar from a ~32Kloc website source base:
 Literally a current project I was just deploying, cloned onto the new platform. For Science.
 
@@ -156,11 +158,13 @@ YMMV of course, but this is a basic type of op that many of us do very frequentl
   
 <hr/>
 
-#### test 2: basic function calls and calculations
+### test 2: basic function calls and calculations
 Calculation a large number of distances using the Havorsine algorithm.
 Again, something from yesterday's workday.:\
-A calculation from a fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many times.\
-Each calculation round includes: 27 artihmetic ops on Doubles, 3 trig ops on Doubles and a sqrt on a Double.
+A calculation from a single fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
+It's a thing that is done.\
+  
+> Each calculation round includes at source level: 27 artihmetic ops on Doubles, 3 trig ops on Doubles and a sqrt on a Double.
 
 
 rounds |  MBA     | M1 Mini  | % difference
@@ -184,3 +188,6 @@ Finally, both the M1 Mini and 2017 MBA used here are low-end machines. It will b
 And although I'd be surprised to see Apple target a product for the datacenter space, one might imagine what could be packed into a 1U, and what the power & cooling reductions might look like there.
   
 A welcome distraction in these dark times.
+  
+    
+    
