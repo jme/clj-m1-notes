@@ -150,9 +150,8 @@ Also 'lein deps' was pre-run on the M1 Mini to assure that the the local Maven (
 Still, this is not exactly a fair comparison; the Mini has a bigger fan and is running Big Sur while the MBA is fully patched but not bumped up to this latest OS.
   
 Nevertheless...
-  
 
-
+&nbsp;  
 * **test 1:** uberjar build
 Assembling a deployment-ready uberjar from a ~32Kloc website source base:
 Literally a current project I was just deploying, cloned onto the new platform. For Science.
@@ -186,7 +185,6 @@ rounds |  MBA     | M1 Mini   | % difference
 30m    |26229 ms  |14612 ms   | ~55%
 300m   |264782 ms |145606 ms  | ~55%
   
-&nbsp;
 
 The M1 Mini is somewhat less than twice as fast at this task as the MBA. Nice.
   
