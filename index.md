@@ -187,7 +187,7 @@ rounds |  MBA     | M1 Mini   | % difference
 
 The M1 Mini is somewhat less than twice as fast at this task as the MBA. Nice.
   
-  > linear perf was expected and linear perf was recieved; The M1 Mini time for 3B reps (1437448 ms).
+  > linear perf was expected and linear perf was recieved; The M1 Mini time for 3 Billion reps is 1437448 ms.
 
 Another decidedly non-cpu-melting, apparently fanless benchmark but it looks like Apple is really not fooling around with this latest SoC initiative.
 
