@@ -9,7 +9,7 @@ The first wave of Apple's M1-based computers are now out in the wild. Obviously 
   
 **tl;dr** yes, with surprisingly few caveats, dodges and workarounds. Only one really.
  
-So, The Goal: Quickly replicate the existing Clojure development environment present on a trusty 'traveller' laptop, onto a new M1-based Mac Mini.
+So, The Goal: Quickly replicate the existing Clojure development environment present on a trusty & high-milage 'traveller' laptop, onto a new M1-based Mac Mini.
   
 &nbsp;
 
@@ -129,8 +129,8 @@ Installs and runs as expected.
 Many in the clojure community use emacs, but as of this writing it is apparently not quite ready.
   
 * **Homebrew** ::
-[Although proceeding rapidly](https://github.com/Homebrew/brew/issues/7857) support is incomplete and at the moment the brew command is available only via Rosetta.
-> Command line calls [can use the 'arch -x86_64' prefix](https://github.com/Homebrew/brew/issues/9173) to run apps with Rosetta2.
+[Although proceeding very rapidly](https://github.com/Homebrew/brew/issues/7857) support is incomplete.
+> not Homebrew specidic, but helpful: the 'arch -x86_64' prefix to run apps with Rosetta2 via command line.
 
 
 * **virtualization and containers** ::
