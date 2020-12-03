@@ -175,6 +175,8 @@ Again, something from yesterday's workday:
 A distance calculation from a single fixed point -["Point Nemo", the Oceanic Pole of Inaccessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)- to a randomly-generated lat/lng coordinate. Repeated many, many times.\
 It's a thing that is done.
   
+&nbsp;
+
 > code snippet included in this repo.
 
 rounds |  MBA     | M1 Mini   | % difference
@@ -183,6 +185,8 @@ rounds |  MBA     | M1 Mini   | % difference
 30m    |26229 ms  |14612 ms   | ~55%
 300m   |264782 ms |145606 ms  | ~55%
   
+&nbsp;
+
 The M1 Mini is somewhat less than twice as fast at this task as the MBA. Nice.
   
   > linear perf was expected and linear perf was recieved; The M1 Mini time for 3B reps (1437448 ms).
