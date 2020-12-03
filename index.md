@@ -19,7 +19,8 @@ MBAs, even entry-level machines like this one, have been omnipresent in the dev 
 * 2020 Mac Mini, with the M1 SoC, 8GB memory 256GB SSD:
 The absolute entry tier to M1-world. 
 <hr/>  
-
+  
+  
 ### environment
 a fairly minimal web dev setup including:
 * OpenJDK
@@ -31,7 +32,8 @@ a fairly minimal web dev setup including:
 > Not included here : the unboxing, user and credential setup, etc.
 
 <hr/>
-
+  
+  
 ## setup
 
 ### OpenJDK
@@ -85,8 +87,8 @@ Preinstalled, NOP.
 <hr/>
 
 **MacVim**
-I use [this](https://macvim-dev.github.io/macvim/) on the MBA and it installed as usual on the Mini. But as it currently is still i86 based it will need to run under Rosetta, the i86 -> M1 translation utility.
-> If this is the first i86 app you have tried to install you will get a prompt to install Rosetta.\
+I use [this](https://macvim-dev.github.io/macvim/) on the MBA and it installed as usual on the Mini. But as it currently is still a Intel x86 binary it will need to run under Rosetta, the x86 -> M1 translation utility.
+> If this is the first x86 app you have tried to install you will get a prompt to install Rosetta.\
   And the Activity Monitor utility helpfully includes a *architecture* ["Apple" "Intel"] column.
 
 The 'translation' ops are fast (< 1m) and one-time. MacVim then launches normally. As fast as ever.
@@ -111,7 +113,7 @@ I went with the $HOME/bin style of install here. It was completely usual and nom
 
 **(optional) postgresql**
 There are currently a few options for installing this DB, including via Homebrew, compiling from source and GUI apps.
-In order to match the MBA environment I used [Postgres.app](https://postgresapp.com). As this is currently still only ix86-based it will pass through the Rosetta translations ops upon first run.\
+In order to match the MBA environment I used [Postgres.app](https://postgresapp.com). As this is currently still only x86-based it will pass through the Rosetta translations ops upon first run.\
 Installs and runs as expected.
   
 <hr/>
@@ -130,7 +132,8 @@ Many in the clojure community use emacs, but as of this writing it is apparently
 These are a bit shaky at the moment, and I'm not covering them as they are not in the workflow of the two 8GB memory minimalist dev setups.
    
 <hr/>
-
+  
+  
 ### A quick comparison
 The new Mini feels exremely responsive and snappy. How about a quick performance test?
 
@@ -155,7 +158,7 @@ runs, averaged & rounded up    |  MBA     | M1 Mini
   
 So the M1 Mini required only about 35% of the processing time of the MBA; not too bad.
   
-YMMV of course, but this is a basic type of op that many of us do very frequently.
+Hardly an epic computation, but this is a basic type of op that many of us do very frequently.
   
 <hr/>
 
@@ -165,8 +168,7 @@ Again, something from yesterday's workday.:\
 A calculation from a single fixed point -The Pacific Pole of Inaccessibility- to a randomly-generated lat/lng corrdinate, repeated many, many times.\
 It's a thing that is done.\
   
-> Each calculation round includes at source level: 27 artihmetic ops on Doubles, 3 trig ops on Doubles and a sqrt on a Double.
-
+> code snippet included in this repo.
 
 rounds |  MBA     | M1 Mini  | % difference
 ------ |----------|----------|-------------
@@ -176,11 +178,12 @@ rounds |  MBA     | M1 Mini  | % difference
   
 The M1 Mini is somewhat less than twice as fast at this task as the MBA. Nice.
 
-While this is hardly a cpu-melting benchmark it looks like the Apple is really not fooling around with this latest SoC initiative.
+Another decidedly non-cpu-melting benchmark but it looks like Apple is really not fooling around with this latest SoC initiative.
 
 <hr/>
-
-### discussion
+  
+  
+### epilogue
 This lowest-tier M1 Mini is really impressive, and replicating a minimal 'live' clojure dev environment from a previous generation laptop was mostly straightforward. There are still many holes in M1 software support but I expect these will be filled-out in short order.
 
 Even a few trivial performance comparisons suggest notable gains in a daily-driver development situation.
