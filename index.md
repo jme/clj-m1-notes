@@ -2,7 +2,8 @@
 title: Clojure and the M1, notes and a quick comparison
 ---
 
-#Clojure on the M1: notes and a quick comparison
+# Clojure on the M1: notes and a quick comparison
+  
 
 The first wave of Apple's M1-based computers are now out in the wild. Obviously the first question is: "Can I get my clojure dev environment up and running today?"
   
