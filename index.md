@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Clojure and the M1, notes and a quick comparison
 ---
 
