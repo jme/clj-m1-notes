@@ -38,8 +38,8 @@ a fairly minimal web dev setup including:
 
 ## setup
 
-**OpenJDK:** &nbsp;
-OK, this is the ONE slight caveat mentioned in the intro and naturally is the most important piece.
+**OpenJDK:**\
+Ok, this is the ONE slight caveat mentioned in the intro and naturally is the most important piece.
 At the present time there is a [JEP](https://openjdk.java.net/jeps/391) ongoing for OpenJDK M1 port but Azul has already released a [M1 build of OpenJDK](https://www.azul.com/downloads/zulu-community/?package=jdk).
 
 There are various build versions available but for now I'm using that stalwart JDK of the clojure dev ecosystem, version 1.8, using the bundle rather than the dmg installer.
@@ -90,8 +90,8 @@ Preinstalled, NOP.
 
 <hr/>
 
-**MacVim**
-I use [this](https://macvim-dev.github.io/macvim/) on the MBA and it installed as usual on the Mini. But as it currently is still a Intel x86 binary it will need to run under Rosetta, the x86 -> M1 translation utility.
+**MacVim**\
+I use this editor on the MBA and it [installed as usual on the Mini.](https://macvim-dev.github.io/macvim/) But as it currently is still a Intel x86 binary it will need to run under Rosetta, the x86 -> M1 translation utility.
   
 The 'translation' ops are fast (< 1m) and one-time. MacVim then launches normally. As fast as ever.
 
@@ -104,7 +104,7 @@ I completed the editor setup with some config file tweaks and a few favored plug
 
 <hr/>
 
-**Leingingen**
+**Leingingen**\
 Install via the lein script as per the usual instructions on the Leiningen site.\
 I went with the $HOME/bin style of install here. It was completely usual and nominal.
 
@@ -116,9 +116,9 @@ I went with the $HOME/bin style of install here. It was completely usual and nom
 
 &nbsp;
 
-**(optional) postgresql**
+**(optional) postgresql**\
 There are currently a few options for installing this DB, including via Homebrew, compiling from source and GUI apps.
-In order to match the MBA environment I used [Postgres.app](https://postgresapp.com). As this is currently still only x86-based it will pass through the Rosetta translations ops upon first run.\
+In order to match the MBA environment I used [Postgres.app](https://postgresapp.com). As this is currently still only x86-based it passes through the Rosetta translations ops upon first run.\
 Installs and runs as expected.
   
 <hr/>
