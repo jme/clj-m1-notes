@@ -175,9 +175,10 @@ Again, something from yesterday's workday:
 A distance calculation from a single fixed point -["Point Nemo", the Oceanic Pole of Inaccessibility](https://en.wikipedia.org/wiki/Pole_of_inaccessibility)- to a randomly-generated lat/lng coordinate. Repeated many, many times.\
 It's a thing that is done.
   
-&nbsp;
 
 > code snippet included in this repo.
+  
+&nbsp;
 
 rounds |  MBA     | M1 Mini   | % difference
 ------ |----------|-----------|-------------
