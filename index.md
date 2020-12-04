@@ -98,7 +98,7 @@ The 'translation' ops are fast (< 1m) and one-time. MacVim then launches normall
 > If this is the first x86 app you have tried to install you will get a prompt to install Rosetta.\
   And the Activity Monitor utility helpfully includes a *architecture* ["Apple" "Intel"] column.
 
-I completed the editor setup with some config file tweaks and a few favored plugins: [paredit](https://github.com/vim-scripts/paredit.vim), [vim-fireplace](https://github.com/tpope/vim-fireplace), [vim-vinegar](https://github.com/tpope/vim-vinegar) and [solarized](https://github.com/altercation/vim-colors-solarized). As those are vimscript plugins no problems were expected and none occurred.
+I completed the editor setup with some config file tweaks and a few favored plugins: [paredit](https://github.com/vim-scripts/paredit.vim), [vim-fireplace](https://github.com/tpope/vim-fireplace), [vim-vinegar](https://github.com/tpope/vim-vinegar) and [solarized](https://github.com/altercation/vim-colors-solarized). As those are vimscript + python plugins no problems were expected and none occurred.
 
 > 
 
