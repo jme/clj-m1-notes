@@ -126,7 +126,7 @@ Installs and runs as expected.
 **Some Maybe Options not addressed here**
 
 * **emacs** ::
-Many in the clojure community use emacs, but as of this writing it is apparently not quite ready.
+Many in the clojure community use emacs, but as of this writing it is apparently not quite ready. This will change quickly I'm sure.
   
 * **Homebrew** ::
 [Although proceeding very rapidly](https://github.com/Homebrew/brew/issues/7857) support is incomplete.
