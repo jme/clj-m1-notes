@@ -83,6 +83,13 @@ The first time you type 'git' in a terminal you are prompted to install the XCod
 This takes just a few minutes of waiting.
 The version installed here is Git 2.24.3 (Appple Git-128).
 
+> **update**: The Big Sur 11.01 update is substantial enough to require the re-installation of XCode Command Line Tools, usually a major release action item.\
+After the update git, among other commands, will fail with an "xcrun error".\
+For me, the simplest fix worked fine:
+   **xcode-select --install**\
+In-depth info along with further remediation options can be found at [this indispensible StackOverflow post](https://stackoverflow.com/questions/52522565/git-is-not-working-after-macos-update-xcrun-error-invalid-active-developer-pa/52522566#52522566).
+
+
 <hr/>
 
 **vi/vim**\
