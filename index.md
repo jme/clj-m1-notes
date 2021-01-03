@@ -111,7 +111,7 @@ I completed the editor setup with some config file tweaks and a few favored plug
 
 <hr/>
 
-**Leingingen**\
+**Leiningen**\
 Install via the lein script as per the usual instructions on the [Leiningen site](https://leiningen.org).\
 I went with the $HOME/bin style of install here. It was completely usual and nominal.
 
@@ -160,6 +160,7 @@ Nevertheless...
 
 &nbsp;  
 * **test 1:** uberjar build
+  
 Assembling a deployment-ready uberjar from a ~32Kloc website source base:
 Literally a current project I was just deploying, cloned onto the new platform. For Science.
 
@@ -176,6 +177,7 @@ Hardly an epic computation, but this is a basic type of op that many of us do ve
 &nbsp;
 
 * **test 2:** basic function calls and calculations
+  
 Calculation a large number of distances using the Havorsine algorithm.
 Again, something from yesterday's workday:
   
